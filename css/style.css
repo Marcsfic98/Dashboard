@@ -78,6 +78,7 @@ header{
     background-color: white;
     padding: 15px 20px;
     border-bottom: 2px solid #ccc;
+    height: 60px;
 }
 
 .pesquisa_campo{
@@ -116,4 +117,81 @@ header{
 
 .pesquisa_campo input:focus{
     outline: 0;
+}
+
+.icone_alerta{
+    float: right;
+    margin-right: 28px;
+    background: #fbedef;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.icone_alerta i{
+    color: red;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-top: 6px;
+}
+
+.icone_alerta p{
+    cursor: pointer;
+    position: absolute;
+    top: -6px;
+    left: 20px;
+    display: inline-block;
+    background-color: #ed7387;
+    font-size: 12px;
+    padding: 2px 3px;
+    color: white;
+    border-radius: 3px;
+}
+
+.nome_usuario{
+    float: left;
+}
+
+.nome_usuario h2{
+    font-weight: normal;
+    font-size: 18px;
+    color: #a7a7a7;
+    margin-top: 5px;
+}
+
+.content1{
+    float: left;
+    width: 70%;
+    padding: 30px;
+}
+
+.painel{
+    float: left;
+    border: 2px solid #ebebeb;
+    background: white;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.painel h3{
+    font-size: 24px;
+    color: #7f7f7f;
+    font-weight: normal;
+}
+
+.painel p{
+ color: #b2b2b2;
+ font-size: 17px;
+ margin-top: 10px;
+}
+
+.content2{
+    float: right    ;
+    width: 30%;
+    background-color: #eaebeb;
+    height: calc(100% - 60px) ;
+    padding: 20px;
+    overflow-y: auto;
 }
