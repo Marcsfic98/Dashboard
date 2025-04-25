@@ -14,6 +14,9 @@ html ,body{
     clear: both;
 }
 
+.w50{
+    width: 50%!important ;
+}
 /*navbar*/
 
 
@@ -202,6 +205,16 @@ header{
  margin-top: 10px;
 }
 
+.painel a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #a7a7a7;
+    color: white;
+    padding: 6px 10 px;
+    margin: 8px 10px;
+    border-radius: 30px;
+}
+
 .content2{
     float: right    ;
     width: 30%;
@@ -288,5 +301,10 @@ header{
         position: absolute;
         left:0;
         top: 0;
+    }
+
+    .painel a{
+        display: block;
+        text-align: center;
     }
 }
